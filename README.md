@@ -26,16 +26,16 @@ We can discuss the process in this [discussion thread](https://github.com/huggin
 
 This course provides a practical, hands-on approach to working with small language models, from initial training through to production deployment.
 
-| Module | Description | Status | Release Date |
-|--------|-------------|---------|--------------|
-| [Instruction Tuning](./1_instruction_tuning) | Learn supervised fine-tuning, chat templating, and basic instruction following | ✅ Ready | Dec 3, 2024 |
-| [Preference Alignment](./2_preference_alignment) | Explore DPO and ORPO techniques for aligning models with human preferences | ✅ Ready  | Dec 6, 2024 |
-| [Parameter-efficient Fine-tuning](./3_parameter_efficient_finetuning) | Learn LoRA, prompt tuning, and efficient adaptation methods | ✅ Ready | Dec 9, 2024 |
-| [Evaluation](./4_evaluation) | Use automatic benchmarks and create custom domain evaluations | ✅ Ready | Dec 13, 2024 |
-| [Vision-language Models](./5_vision_language_models) | Adapt multimodal models for vision-language tasks | ✅ Ready | Dec 16, 2024 |
-| [Synthetic Datasets](./6_synthetic_datasets) | Create and validate synthetic datasets for training | ✅ Ready | Dec 20, 2024 |
-| [Inference](./7_inference) | Infer with models efficiently | 📝 Planned | Dec 23, 2024 |
-| Capstone Project | Use what you've learnt to climb the leaderboard! | [🚧 WIP](https://github.com/huggingface/smol-course/pull/97) | Dec 23, 2024 |
+| Module                                                                | Description                                                                    | Status                                                       | Release Date |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
+| [Instruction Tuning](./1_instruction_tuning)                          | Learn supervised fine-tuning, chat templating, and basic instruction following | ✅ Ready                                                     | Dec 3, 2024  |
+| [Preference Alignment](./2_preference_alignment)                      | Explore DPO and ORPO techniques for aligning models with human preferences     | ✅ Ready                                                     | Dec 6, 2024  |
+| [Parameter-efficient Fine-tuning](./3_parameter_efficient_finetuning) | Learn LoRA, prompt tuning, and efficient adaptation methods                    | ✅ Ready                                                     | Dec 9, 2024  |
+| [Evaluation](./4_evaluation)                                          | Use automatic benchmarks and create custom domain evaluations                  | ✅ Ready                                                     | Dec 13, 2024 |
+| [Vision-language Models](./5_vision_language_models)                  | Adapt multimodal models for vision-language tasks                              | ✅ Ready                                                     | Dec 16, 2024 |
+| [Synthetic Datasets](./6_synthetic_datasets)                          | Create and validate synthetic datasets for training                            | ✅ Ready                                                     | Dec 20, 2024 |
+| [Inference](./7_inference)                                            | Infer with models efficiently                                                  | 📝 Planned                                                   | Dec 23, 2024 |
+| Capstone Project                                                      | Use what you've learnt to climb the leaderboard!                               | [🚧 WIP](https://github.com/huggingface/smol-course/pull/97) | Dec 23, 2024 |
 
 ## Why Small Language Models?
 
@@ -52,6 +52,7 @@ While large language models have shown impressive capabilities, they often requi
 ## Prerequisites
 
 Before starting, ensure you have the following:
+
 - Basic understanding of machine learning and natural language processing.
 - Familiarity with Python, PyTorch, and the `transformers` library.
 - Access to a pre-trained language model and a labeled dataset.
@@ -65,7 +66,7 @@ We maintain the course as a package so you can install dependencies easily via a
 With `uv` installed, you can install the course like this:
 
 ```bash
-uv venv --python 3.11.0
+uv venv --python 3.11
 uv sync
 ```
 
